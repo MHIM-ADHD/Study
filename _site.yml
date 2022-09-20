@@ -1,12 +1,16 @@
-name: "{{name}}"
-title: "{{title}}"
-description: |
-  {{title}}
-output_dir: "{output_dir}"
+
+name: "my-website"
+output_dir: "docs"
 navbar:
-  right:
+  title: "Data Visualisation with R"
+  left:
     - text: "Home"
-      href: index.html
+      href: Visualisation.html
     - text: "About"
       href: about.html
-output: distill::distill_article
+output:
+  html_document:
+    theme: cosmo
+    toc: true
+    highlight: textmate
+    css: styles.css
