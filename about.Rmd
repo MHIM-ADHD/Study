@@ -1,0 +1,96 @@
+---
+title: "Publications"
+listing: Publications
+output:
+  postcards::trestles 
+image: "Journals.jpg"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## **2022**
+
+**Speyer, L. G.**, Hang, Y., Hall, H. A., Murray, A. L. (2022). The Role of Harsh Parenting Practices in Early- to Middle-Childhood Socio-Emotional Development: An Examination in the Millennium Cohort Study. Child Development. In Press.
+
+Antony, E. M., Pihlajamäki, M., **Speyer, L. G.**, Murray, A. L. (2022). Does emotion dysregulation mediate the association between ADHD symptoms and internalizing problems? A longitudinal within-person analysis in a large population-representative study. The Journal of Child Psychology and Psychiatry. Conditionally Accepted. 
+
+**Speyer, L. G.**, Obsuth, I., Ribeaud D., Eisner M., Luciano, M., Auyeung, B., Murray, A. L. (2022). Mediating Factors in Within-Person Developmental Cascades of Externalising, Internalising and ADHD Symptoms in Childhood. Research on Child and Adolescent Psychopathology. In Press.
+
+## **2021**
+
+**Speyer, L. G.**, Marryat, L. Auyeung, B. (2021). Effects of COVID-19 Public Health Safety Measures on Births in Scotland between March and May 2020. Public Health. Online First. [https://doi.org/10.1016/j.puhe.2021.10.013](https://doi.org/10.1016/j.puhe.2021.10.013).  
+
+**Speyer, L. G.**, Eisner M., Ribeaud D., Luciano, M., Auyeung, B., Murray, A. L. (2021). A Symptom Level Perspective on Reactive and Proactive Aggressive Behaviours and ADHD Symptoms in Childhood. The Journal of Child Psychology and Psychiatry. Online First. [https://doi.org/10.1111/jcpp.13556](https://doi.org/10.1111/jcpp.13556). 
+
+**Speyer, L. G.**, Hall, H. A., Hang, Y., Hughes, C., Murray, A. L. (2021). Within-Family Relations of Mental Health Problems across Childhood and Adolescence. The Journal of Child Psychology and Psychiatry. Online First. [https://doi.org/10.1111/jcpp.13572](https://doi.org/10.1111/jcpp.13572). 
+
+**Speyer, L. G.**, Ushakova, A., Hall, H. A., Luciano, M., Auyeung, B., Murray, A. L. (2021). Analysing Dynamic Change in Children's Socio-Emotional Development using the Strengths and Difficulties Questionnaire in a large UK Longitudinal Study. Journal of Abnormal Psychology. Online First. [https://doi.org/10.1037/abn0000714](https://doi.org/10.1037/abn0000714). 
+
+**Speyer, L. G.**, Neaves, S., Hall, H. A., Hemani G., Lombardo, M. V., Murray, A. L., *Auyeung B*, *Luciano, M.* (2021). Polygenic Risks for Joint Developmental Trajectories of Internalising and Externalising Problems: Findings from the ALSPAC Cohort. The Journal of Child Psychology and Psychiatry Online First. [https://doi.org/10.1111/jcpp.13549](https://doi.org/10.1111/jcpp.13549).
+
+Murray, A. L., Ushakova, A., **Speyer, L. G.**, Brown, R., Auyeung, B., Zhu, X. (2021) Sex/gender differences in individual and joint trajectories of common mental health symptoms in early to middle adolescence. JCPP Advances. Online First. [https://doi.org/10.1002/jcv2.12057](https://doi.org/10.1002/jcv2.12057).  
+
+**Speyer, L. G.**, Eisner, M., Ribeaud, D., Luciano, M., Auyeung, B., Murray, A. L.  (2021). Developmental Relations between Internalising Problems and ADHD in Childhood: A Symptom Level Perspective. Research on Child and Adolescent Psychopathology. Online First. [https://doi.org/10.1007/s10802-021-00856-3](https://doi.org/10.1007/s10802-021-00856-3).   
+
+Hang Y, Soto C, **Speyer, L. G.**, Haring L, Lee B, Ostendorfd B, Mõttus R. (2021). Age Differences in the Big Five Personality Domains, Facets and Nuances: A Replication across the life span. Journal of Research in Personality. Online First.[https://doi.org/10.1016/j.jrp.2021.104121](https://doi.org/10.1016/j.jrp.2021.104121).
+
+Murray, A. L., **Speyer, L. G.**, Hall, H. A., Valdebenito, S., Hughes, C. (2021). Teacher versus parent informant invariance of the Strengths and Difficulties Questionnaire. Journal of Pediatric Psychology. Online First. [https://doi.org/10.1093/jpepsy/jsab062](https://doi.org/10.1093/jpepsy/jsab062).   
+
+Hall, H. A., **Speyer, L. G.**, Murray, A. L., Auyeung, B. (2021). Prenatal maternal infections and children’s neurodevelopment in the UK Millennium Cohort Study: A focus on ASD and ADHD. Journal of Attention Disorders. Online First. [https://doi.org/10.1177/10870547211015422](https://doi.org/10.1177/10870547211015422). 
+
+**Speyer, L. G.**, Brown, R., Camus, L., Murray, A. L., Auyeung, B. (2021). Alexithymia and autistic traits as contributing factors to empathy deficits in preadolescent children. Journal of Autism and Developmental Disorders. Online First.  [https://doi.org/10.1007/s10803-021-04986-x](https://doi.org/10.1007/s10803-021-04986-x).
+
+Murray, A. L., **Speyer, L. G.**, Hall, H. A., Valdebenito, S., Hughes, C. (2021). A longitudinal invariance analysis of the Strengths and Difficulties Questionnaire across ages 3,5,7,11,14 and 17 in a large UK-representative sample. Assessment. Online First.[https://doi.org/10.1177/10731911211009312](https://doi.org/10.1177/10731911211009312). 
+
+Murray A. L, Hall, H. A., **Speyer, L. G.**, Carter L, Mirman D, Rhode L, Caye A. (2021). Brief Developmental trajectories of ADHD symptoms in a large population-representative longitudinal survey. Psychological Medicine. Online First. [https://doi.org/10.1017/S0033291721000349](https://doi.org/10.1017/S0033291721000349).
+
+Murray, A. L., Obsuth, I., **Speyer, L. G.**, Murray, G. C., McKenzie, K., Eisner, M., Ribeaud D. (2021). Developmental cascades from aggression to internalizing problems via peer and teacher relationships from early to middle adolescence. Journal of Youth and Adolescence. Online First. [https://doi.org/10.1007/s10964-021-01396-1](https://doi.org/10.1007/s10964-021-01396-1).
+
+## **2020**
+
+**Speyer, L. G.**, Hall, H. A., Ushakova, A., Murray, A. L., Luciano, M., Auyeung, B. (2020). Longitudinal Effects of Breastfeeding on Parent-Reported Child Behaviour. Archives of Disease in Childhood. Online First. [http://dx.doi.org/10.1136/archdischild-2020-319038](http://dx.doi.org/10.1136/archdischild-2020-319038).  
+
+**Speyer, L. G.**, Hall, H. A., Ushakova, A., Murray, A. L., Luciano, M., Auyeung, B. (2020). Links between Perinatal Risk Factors and Maternal Psychological Distress: A Network Analysis. Acta Obstetricia et Gynecologica Scandinavica. Online First. [https://doi.org/10.1111/aogs.14056](https://doi.org/10.1111/aogs.14056).   
+
+Hall, H. A., **Speyer, L. G.**, Murray, A. L., Auyeung B. (2020). Prenatal maternal infections and children’s socioemotional development: Findings from the UK Millennium Cohort Study. European Child & Adolescence Psychiatry. Online First. [https://doi.org/10.1007/s00787-020-01644-y](https://doi.org/10.1007/s00787-020-01644-y). 
+
+## **2018**
+
+**Speyer, L. G.**, Schleef, E. (2018). Processing ‘Gender-neutral’ Pronouns: A Self-paced Reading Study of Learners of English. Applied Linguistics, 40(5), 793-815. [https://doi.org/10.1093/applin/amy022](https://doi.org/10.1093/applin/amy022).
+
+## **Under Review**
+
+**Speyer, L. G.**, Hall, H. A., Ushakova, A., Luciano, M., Murray, A. L., Auyeung, B. (revised and resubmitted to Research on Child and Adolescent Psychopathology). Dynamic Change in Socio-Emotional Development during Childhood and Adolescence. PsyArXiv pre-print: [https://doi.org/10.31234/osf.io/wn6pb](https://doi.org/10.31234/osf.io/wn6pb).  
+
+**Speyer, L. G.**, Brown, R., Ribeaud D., Eisner M., Murray, A. L. (revised and resubmitted to Journal of Autism and Developmental Disorders) The role of moment-to-moment dynamics of perceived stress and negative affect in co-occurring ADHD and internalising symptoms. PsyArXiv pre-print: [https://doi.org/10.31234/osf.io/d5u38](https://doi.org/10.31234/osf.io/d5u38). 
+
+Hang, Y., Soto C, **Speyer, L. G.**, Lee B,  Murray, A., L., Mõttus, R. (revised and resubmitted to Journal of Personality). Social expectations and abilities to meet them as possible mechanisms of youth personality development. PsyArXiv pre-print:[https://doi.org/10.31234/osf.io/8yp6x](https://doi.org/10.31234/osf.io/8yp6x). 
+
+*Hang, Y.*, ***Speyer, L. G.***, Haring, L., Murray, A., L., Mõttus, R. (under review at Journal of Research in Personality). Predicting the General P-factor of Psychopathology using Lower Levels of the Personality Hierarchy. PsyArXiv pre-print: [https://doi.org/10.31234/osf.io/g3aqh](https://doi.org/10.31234/osf.io/g3aqh). 
+
+Murray, A. L., Grossart, C., Hall, H. A., **Speyer, L. G.**, Harfetz Mirman, J., Mirman, D., Hughes, C. (under review at The Journal of Child Psychology and Psychiatry). Predictors of informant disagreements in child mental health: an application of latent difference score modelling. 
+
+Hall, H. A., **Speyer, L. G.**, Lombardo, M. V., Murray, A. L., Auyeung, B. (under review at BMC Public Health). Associations between prenatal maternal infections and children’s socioemotional outcomes: Evidence from the ALSPAC cohort. PsyArXiv pre-print: [https://doi.org/10.31234/osf.io/gf6m5](https://doi.org/10.31234/osf.io/gf6m5).
+
+Hall, H. A., **Speyer, L. G.**, Lombardo, M. V., Murray, A. L., Auyeung, B. (under review at Epidemiology and Psychiatric Sciences). Links between prenatal maternal infections and childhood psychopathology: Evidence from the ALSPAC birth cohort. PsyArXiv pre-print: [https://doi.org/10.31234/osf.io/hnbjg](https://doi.org/10.31234/osf.io/hnbjg).  
+
+Best, K, **Speyer, L. G.**, Murray, A. L., Ushakova, A. (revised and resubmitted to Longitudinal and Life Course Studies). Prediction of Attrition in Large Longitudinal Studies: Tree-based methods versus Multinomial Logistic Models. SocArXiv pre-print: [https://doi.org/10.31235/osf.io/tyszr](https://doi.org/10.31235/osf.io/tyszr). 
+
+Hang, Y., **Speyer, L. G.**, Haring, L., Lee, B., Vainik, U., Luciano, M., Mõttus, R. (under review at Journal of Research in Personality). Establishing a Health Network of Personality Profiles for Adolescents and Emerging Adults. PsyArXiv pre-print: [https://doi.org/10.31234/osf.io/4qh96](https://doi.org/10.31234/osf.io/4qh96).
+
+Brown, R., **Speyer, L. G.**, Obsuth, I., Ribeaud D., Eisner M., Murray, A. L. (under review at Psychology of Addictive Behaviors). The mediating role of emotional lability in the relation between adult ADHD symptoms, alcohol and cannabis consumption: an ecological momentary assessment study. PsyArXiv pre-print: [https://doi.org/10.31219/osf.io/9vwmc](https://doi.org/10.31219/osf.io/9vwmc).  
+
+Kwok, J., **Speyer, L. G.**, Soursou, G., Murray, A. L., Fanti, K., Auyeung, B. (under review at Child Development). Effects of maternal metabolic health on child developmental outcomes: A Born in Bradford Study.
+
+Brown, R., **Speyer, L. G.**, Eisner M., Ribeaud D., Murray, A. L. (under review at The Journal of Child Psychology and Psychiatry) Exploring the effect of ADHD traits on the moment-to-moment interplay between provocation and aggression: evidence from dynamic structural equation modelling. PsyArXiv pre-print: [https://doi.org/10.31234/osf.io/d5u38](https://doi.org/10.31234/osf.io/d5u38). 
+
+Hemady, C. L., **Speyer, L. G.**, et al., (under review at BMC Pregnancy and Childbirth) Patterns of adverse childhood experiences and associations with prenatal substance use and poor infant outcomes in a multi-country cohort of mothers: A Latent Class Analysis. MedArXiv pre-print: [https://doi.org/10.1101/2021.07.23.21261027](https://doi.org/10.1101/2021.07.23.21261027). 
+
+Hemady, C. L., **Speyer, L. G.**, Kwok, J., Meinck, F., Melendez-Torres, G. J., Fry, D., Auyeung, B., Murray, A. L. (under review at BMC Medicine) Using network analysis to illuminate the intergenerational transmission of adversity in the ALSPAC cohort.
+
+Carter, L., **Speyer, L. G.**, Caye, A., Rhode, L., Murray, A. L. (under review at Psychological Medicine). Late adolescent outcomes of different developmental trajectories of ADHD symptoms in a large longitudinal study. PsyArXiv pre-print:  [https://doi.org/10.31234/osf.io/eb3vj](https://doi.org/10.31234/osf.io/eb3vj). 
+
+
