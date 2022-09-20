@@ -4,10 +4,10 @@ output_dir: "docs"
 navbar:
   title: "Mental Health in the Moment - ADHD Study"
   left:
-    - text: "Home"
-      href: About the Study.html
-    - text: "About"
-      href: Information Sheets.html
+    - text: "About the Study"
+      href: index.html
+    - text: "Information Sheets"
+      href: about.html
 output:
   html_document:
     theme: cosmo
