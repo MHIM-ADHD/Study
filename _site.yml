@@ -2,12 +2,12 @@
 name: "my-website"
 output_dir: "docs"
 navbar:
-  title: "Data Visualisation with R"
+  title: "Mental Health in the Moment - ADHD Study"
   left:
     - text: "Home"
-      href: Visualisation.html
+      href: About the Study.html
     - text: "About"
-      href: about.html
+      href: Information Sheets.html
 output:
   html_document:
     theme: cosmo
