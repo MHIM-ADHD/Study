@@ -1,30 +1,41 @@
 ---
-title: "Website"
-author: "Lydia Speyer"
-date: '`r Sys.Date()`'
-output: html_document
+title: "Lydia Gabriela Speyer"
+description: |
+  Postdoctoral Research Associate, University of Cambridge
+site: distill::distill_website
+listing: posts
+output:
+  postcards::trestles 
+image: "Speyer_Photo.jpg" 
+
 ---
+## About Me
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+My research focuses on the development of co-occurring mental health problems during childhood and adolescence. I'm also interested in quantitative methodology, particularly in relation to using longitudinal data analysis methods to enhance substantative reserach. 
 
-## R Markdown
+Currently, I am working at the [Blakemore Lab](https://sites.google.com/site/blakemorelab/Home?authuser=0) to work on the [Cambridge Mind App (CaM-App) study](https://sites.google.com/site/blakemorelab/research/cambridge-mind-app-study?authuser=0) which investigates the mental health trajectories of adolescents and adults around the globe during the ongoing COVID-19 pandemic using an innovative smartphone app. The CaM-App study collects data on mental health, as well as phone-based data such as app usage, movement and sleeping data to gain comprehensive insights into which behaviours might exacerbate or mitigate the negative effects of loneliness during social-distancing. 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Before joining the Universtiy of Cambridge, I completed my PhD in Psychology at the University of Edinburgh focusing on *Co-occurring Mental Health Problems across Childhood and Adolescence: Within-Person Developmental Relations, Mediators and Antecedents*. 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Contact
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
+```{r, out.width = "30px", echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("twitter.png")
+``` 
+[$@$LydiaSpeyer](https://twitter.com/LydiaSpeyer)
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+```{r, out.width = "30px", echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("email.png")
+``` 
+[ls945@cam.ac.uk](ls945@cam.ac.uk)
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r, out.width = "30px", echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("scholar.png")
+``` 
+[Google Scholar Profile](https://scholar.google.com/citations?user=C9CiBIAAAAAJ&hl=en)
+

@@ -1,0 +1,1192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style type="text/css">body {font-family: 'Roboto Slab', serif;}</style>
+
+    <title>Publications</title>
+
+    
+          <!--radix_placeholder_navigation_in_header-->
+          <meta name="distill:offset" content=""/>
+
+          <script type="application/javascript">
+
+            window.headroom_prevent_pin = false;
+
+            window.document.addEventListener("DOMContentLoaded", function (event) {
+
+              // initialize headroom for banner
+              var header = $('header').get(0);
+              var headerHeight = header.offsetHeight;
+              var headroom = new Headroom(header, {
+                tolerance: 5,
+                onPin : function() {
+                  if (window.headroom_prevent_pin) {
+                    window.headroom_prevent_pin = false;
+                    headroom.unpin();
+                  }
+                }
+              });
+              headroom.init();
+              if(window.location.hash)
+                headroom.unpin();
+              $(header).addClass('headroom--transition');
+
+              // offset scroll location for banner on hash change
+              // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+              window.addEventListener("hashchange", function(event) {
+                window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+              });
+
+              // responsive menu
+              $('.distill-site-header').each(function(i, val) {
+                var topnav = $(this);
+                var toggle = topnav.find('.nav-toggle');
+                toggle.on('click', function() {
+                  topnav.toggleClass('responsive');
+                });
+              });
+
+              // nav dropdowns
+              $('.nav-dropbtn').click(function(e) {
+                $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+                $(this).parent().siblings('.nav-dropdown')
+                   .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+              });
+              $("body").click(function(e){
+                $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+              });
+              $(".nav-dropdown").click(function(e){
+                e.stopPropagation();
+              });
+            });
+          </script>
+
+          <style type="text/css">
+
+          /* Theme (user-documented overrideables for nav appearance) */
+
+          .distill-site-nav {
+            color: rgba(255, 255, 255, 0.8);
+            background-color: #0F2E3D;
+            font-size: 15px;
+            font-weight: 300;
+          }
+
+          .distill-site-nav a {
+            color: inherit;
+            text-decoration: none;
+          }
+
+          .distill-site-nav a:hover {
+            color: white;
+          }
+
+          @media print {
+            .distill-site-nav {
+              display: none;
+            }
+          }
+
+          .distill-site-header {
+
+          }
+
+          .distill-site-footer {
+
+          }
+
+
+          /* Site Header */
+
+          .distill-site-header {
+            width: 100%;
+            box-sizing: border-box;
+            z-index: 3;
+          }
+
+          .distill-site-header .nav-left {
+            display: inline-block;
+            margin-left: 8px;
+          }
+
+          @media screen and (max-width: 768px) {
+            .distill-site-header .nav-left {
+              margin-left: 0;
+            }
+          }
+
+
+          .distill-site-header .nav-right {
+            float: right;
+            margin-right: 8px;
+          }
+
+          .distill-site-header a,
+          .distill-site-header .title {
+            display: inline-block;
+            text-align: center;
+            padding: 14px 10px 14px 10px;
+          }
+
+          .distill-site-header .title {
+            font-size: 18px;
+            min-width: 150px;
+          }
+
+          .distill-site-header .logo {
+            padding: 0;
+          }
+
+          .distill-site-header .logo img {
+            display: none;
+            max-height: 20px;
+            width: auto;
+            margin-bottom: -4px;
+          }
+
+          .distill-site-header .nav-image img {
+            max-height: 18px;
+            width: auto;
+            display: inline-block;
+            margin-bottom: -3px;
+          }
+
+
+
+          @media screen and (min-width: 1000px) {
+            .distill-site-header .logo img {
+              display: inline-block;
+            }
+            .distill-site-header .nav-left {
+              margin-left: 20px;
+            }
+            .distill-site-header .nav-right {
+              margin-right: 20px;
+            }
+            .distill-site-header .title {
+              padding-left: 12px;
+            }
+          }
+
+
+          .distill-site-header .nav-toggle {
+            display: none;
+          }
+
+          .nav-dropdown {
+            display: inline-block;
+            position: relative;
+          }
+
+          .nav-dropdown .nav-dropbtn {
+            border: none;
+            outline: none;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 16px 10px;
+            background-color: transparent;
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: inherit;
+            margin: 0;
+            margin-top: 1px;
+            z-index: 2;
+          }
+
+          .nav-dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            border: 1px solid rgba(0,0,0,0.15);
+            border-radius: 4px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+            z-index: 1;
+            margin-top: 2px;
+            white-space: nowrap;
+            padding-top: 4px;
+            padding-bottom: 4px;
+          }
+
+          .nav-dropdown-content hr {
+            margin-top: 4px;
+            margin-bottom: 4px;
+            border: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          }
+
+          .nav-dropdown-active {
+            display: block;
+          }
+
+          .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+            color: black;
+            padding: 6px 24px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+
+          .nav-dropdown-content .nav-dropdown-header {
+            display: block;
+            padding: 5px 24px;
+            padding-bottom: 0;
+            text-transform: uppercase;
+            font-size: 14px;
+            color: #999999;
+            white-space: nowrap;
+          }
+
+          .nav-dropdown:hover .nav-dropbtn {
+            color: white;
+          }
+
+          .nav-dropdown-content a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+
+          .nav-right .nav-dropdown-content {
+            margin-left: -45%;
+            right: 0;
+          }
+
+          @media screen and (max-width: 768px) {
+            .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+            .distill-site-header a.nav-toggle {
+              float: right;
+              display: block;
+            }
+            .distill-site-header .title {
+              margin-left: 0;
+            }
+            .distill-site-header .nav-right {
+              margin-right: 0;
+            }
+            .distill-site-header {
+              overflow: hidden;
+            }
+            .nav-right .nav-dropdown-content {
+              margin-left: 0;
+            }
+          }
+
+
+          @media screen and (max-width: 768px) {
+            .distill-site-header.responsive {position: relative; min-height: 500px; }
+            .distill-site-header.responsive a.nav-toggle {
+              position: absolute;
+              right: 0;
+              top: 0;
+            }
+            .distill-site-header.responsive a,
+            .distill-site-header.responsive .nav-dropdown {
+              display: block;
+              text-align: left;
+            }
+            .distill-site-header.responsive .nav-left,
+            .distill-site-header.responsive .nav-right {
+              width: 100%;
+            }
+            .distill-site-header.responsive .nav-dropdown {float: none;}
+            .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+            .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+              display: block;
+              width: 100%;
+              text-align: left;
+            }
+          }
+
+          /* Site Footer */
+
+          .distill-site-footer {
+            width: 100%;
+            overflow: hidden;
+            box-sizing: border-box;
+            z-index: 3;
+            margin-top: 30px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+          }
+
+          /* Headroom */
+
+          d-title {
+            padding-top: 6rem;
+          }
+
+          @media print {
+            d-title {
+              padding-top: 4rem;
+            }
+          }
+
+          .headroom {
+            z-index: 1000;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+          }
+
+          .headroom--transition {
+            transition: all .4s ease-in-out;
+          }
+
+          .headroom--unpinned {
+            top: -100px;
+          }
+
+          .headroom--pinned {
+            top: 0;
+          }
+
+          /* adjust viewport for navbar height */
+          /* helps vertically center bootstrap (non-distill) content */
+          .min-vh-100 {
+            min-height: calc(100vh - 100px) !important;
+          }
+
+          </style>
+
+          <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+          <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+          <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+          <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+          <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+          <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+          <script type="application/javascript">
+
+          function getMeta(metaName) {
+            var metas = document.getElementsByTagName('meta');
+            for (let i = 0; i < metas.length; i++) {
+              if (metas[i].getAttribute('name') === metaName) {
+                return metas[i].getAttribute('content');
+              }
+            }
+            return '';
+          }
+
+          function offsetURL(url) {
+            var offset = getMeta('distill:offset');
+            return offset ? offset + '/' + url : url;
+          }
+
+          function createFuseIndex() {
+
+            // create fuse index
+            var options = {
+              keys: [
+                { name: 'title', weight: 20 },
+                { name: 'categories', weight: 15 },
+                { name: 'description', weight: 10 },
+                { name: 'contents', weight: 5 },
+              ],
+              ignoreLocation: true,
+              threshold: 0
+            };
+            var fuse = new window.Fuse([], options);
+
+            // fetch the main search.json
+            return fetch(offsetURL('search.json'))
+              .then(function(response) {
+                if (response.status == 200) {
+                  return response.json().then(function(json) {
+                    // index main articles
+                    json.articles.forEach(function(article) {
+                      fuse.add(article);
+                    });
+                    // download collections and index their articles
+                    return Promise.all(json.collections.map(function(collection) {
+                      return fetch(offsetURL(collection)).then(function(response) {
+                        if (response.status === 200) {
+                          return response.json().then(function(articles) {
+                            articles.forEach(function(article) {
+                              fuse.add(article);
+                            });
+                          })
+                        } else {
+                          return Promise.reject(
+                            new Error('Unexpected status from search index request: ' +
+                                      response.status)
+                          );
+                        }
+                      });
+                    })).then(function() {
+                      return fuse;
+                    });
+                  });
+
+                } else {
+                  return Promise.reject(
+                    new Error('Unexpected status from search index request: ' +
+                                response.status)
+                  );
+                }
+              });
+          }
+
+          window.document.addEventListener("DOMContentLoaded", function (event) {
+
+            // get search element (bail if we don't have one)
+            var searchEl = window.document.getElementById('distill-search');
+            if (!searchEl)
+              return;
+
+            createFuseIndex()
+              .then(function(fuse) {
+
+                // make search box visible
+                searchEl.classList.remove('hidden');
+
+                // initialize autocomplete
+                var options = {
+                  autoselect: true,
+                  hint: false,
+                  minLength: 2,
+                };
+                window.autocomplete(searchEl, options, [{
+                  source: function(query, callback) {
+                    const searchOptions = {
+                      isCaseSensitive: false,
+                      shouldSort: true,
+                      minMatchCharLength: 2,
+                      limit: 10,
+                    };
+                    var results = fuse.search(query, searchOptions);
+                    callback(results
+                      .map(function(result) { return result.item; })
+                    );
+                  },
+                  templates: {
+                    suggestion: function(suggestion) {
+                      var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+                        ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+                        : '';
+                      var html = `
+                        <div class="search-item">
+                          <h3>${suggestion.title}</h3>
+                          <div class="search-item-description">
+                            ${suggestion.description || ''}
+                          </div>
+                          <div class="search-item-preview">
+                            ${img}
+                          </div>
+                        </div>
+                      `;
+                      return html;
+                    }
+                  }
+                }]).on('autocomplete:selected', function(event, suggestion) {
+                  window.location.href = offsetURL(suggestion.path);
+                });
+                // remove inline display style on autocompleter (we want to
+                // manage responsive display via css)
+                $('.algolia-autocomplete').css("display", "");
+              })
+              .catch(function(error) {
+                console.log(error);
+              });
+
+          });
+
+          </script>
+
+          <style type="text/css">
+
+          .nav-search {
+            font-size: x-small;
+          }
+
+          /* Algolioa Autocomplete */
+
+          .algolia-autocomplete {
+            display: inline-block;
+            margin-left: 10px;
+            vertical-align: sub;
+            background-color: white;
+            color: black;
+            padding: 6px;
+            padding-top: 8px;
+            padding-bottom: 0;
+            border-radius: 6px;
+            border: 1px #0F2E3D solid;
+            width: 180px;
+          }
+
+
+          @media screen and (max-width: 768px) {
+            .distill-site-nav .algolia-autocomplete {
+              display: none;
+              visibility: hidden;
+            }
+            .distill-site-nav.responsive .algolia-autocomplete {
+              display: inline-block;
+              visibility: visible;
+            }
+            .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+              margin-left: 0;
+              width: 400px;
+              max-height: 400px;
+            }
+          }
+
+          .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+            width: 90%;
+            outline: none;
+            border: none;
+          }
+
+          .algolia-autocomplete .aa-hint {
+            color: #999;
+          }
+          .algolia-autocomplete .aa-dropdown-menu {
+            width: 550px;
+            max-height: 70vh;
+            overflow-x: visible;
+            overflow-y: scroll;
+            padding: 5px;
+            margin-top: 3px;
+            margin-left: -150px;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 1px solid #999;
+            border-top: none;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+            cursor: pointer;
+            padding: 5px 4px;
+            border-bottom: 1px solid #eee;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+            border-bottom: none;
+            margin-bottom: 2px;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+            overflow: hidden;
+            font-size: 0.8em;
+            line-height: 1.4em;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+            font-size: 1rem;
+            margin-block-start: 0;
+            margin-block-end: 5px;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+            display: inline-block;
+            overflow: hidden;
+            height: 2.8em;
+            width: 80%;
+            margin-right: 4%;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+            display: inline-block;
+            width: 15%;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+            height: 3em;
+            width: auto;
+            display: none;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+            display: initial;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+            background-color: #eee;
+          }
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+            font-weight: bold;
+            font-style: normal;
+          }
+
+          </style>
+
+
+          <!--/radix_placeholder_navigation_in_header-->
+          <!--radix_placeholder_site_in_header-->
+          <!--/radix_placeholder_site_in_header-->
+          
+          <style type="text/css">
+          body {
+            padding-top: 60px;
+          }
+          </style>
+          <script src="C:\Users\lydia\Documents\R\win-library\4.1\rmarkdown\rmd\h\pandoc\header-attrs.js"></script>
+    
+    
+  </head>
+  <body>
+
+          <!--radix_placeholder_navigation_before_body-->
+          <header class="header header--fixed" role="banner">
+          <nav class="distill-site-nav distill-site-header">
+          <div class="nav-left">
+          <a href="index.html" class="title">{{title}}</a>
+          <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+          </div>
+          <div class="nav-right">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+          </div>
+          </nav>
+          </header>
+          <!--/radix_placeholder_navigation_before_body-->
+          <!--radix_placeholder_site_before_body-->
+          <!--/radix_placeholder_site_before_body-->
+    
+    <div class="container-fluid d-none d-lg-block d-xl-block">
+      <div class="d-flex row flex-row vh-100">
+        <div class="d-flex flex-column col-5 align-items-center text-center align-self-center">
+          <div class="mx-auto text-center">
+            <div class="p-3">
+              <img src="Journals.jpg" style="height:15rem" class="rounded">
+            </div>
+            <div class="p-2">
+              <h1>Publications</h1>
+            </div>
+            <hr style="width:60%;"/>
+            <div class="p-2">
+              <div id="icon-list">
+                <ul class="list-inline">
+                                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column vh-100 border-left"></div>
+        <div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;">
+          <div class="my-5" id="content">
+            <div id="section" class="section level2">
+            <h2><strong>2022</strong></h2>
+            <p><strong>Speyer, L. G.</strong>, Hang, Y., Hall, H. A.,
+            Murray, A. L. (2022). The Role of Harsh Parenting Practices
+            in Early- to Middle-Childhood Socio-Emotional Development:
+            An Examination in the Millennium Cohort Study. Child
+            Development. In Press.</p>
+            <p>Antony, E. M., Pihlajamäki, M., <strong>Speyer, L.
+            G.</strong>, Murray, A. L. (2022). Does emotion
+            dysregulation mediate the association between ADHD symptoms
+            and internalizing problems? A longitudinal within-person
+            analysis in a large population-representative study. The
+            Journal of Child Psychology and Psychiatry. Conditionally
+            Accepted.</p>
+            <p><strong>Speyer, L. G.</strong>, Obsuth, I., Ribeaud D.,
+            Eisner M., Luciano, M., Auyeung, B., Murray, A. L. (2022).
+            Mediating Factors in Within-Person Developmental Cascades of
+            Externalising, Internalising and ADHD Symptoms in Childhood.
+            Research on Child and Adolescent Psychopathology. In
+            Press.</p>
+            </div>
+            <div id="section-1" class="section level2">
+            <h2><strong>2021</strong></h2>
+            <p><strong>Speyer, L. G.</strong>, Marryat, L. Auyeung, B.
+            (2021). Effects of COVID-19 Public Health Safety Measures on
+            Births in Scotland between March and May 2020. Public
+            Health. Online First. <a
+            href="https://doi.org/10.1016/j.puhe.2021.10.013">https://doi.org/10.1016/j.puhe.2021.10.013</a>.</p>
+            <p><strong>Speyer, L. G.</strong>, Eisner M., Ribeaud D.,
+            Luciano, M., Auyeung, B., Murray, A. L. (2021). A Symptom
+            Level Perspective on Reactive and Proactive Aggressive
+            Behaviours and ADHD Symptoms in Childhood. The Journal of
+            Child Psychology and Psychiatry. Online First. <a
+            href="https://doi.org/10.1111/jcpp.13556">https://doi.org/10.1111/jcpp.13556</a>.</p>
+            <p><strong>Speyer, L. G.</strong>, Hall, H. A., Hang, Y.,
+            Hughes, C., Murray, A. L. (2021). Within-Family Relations of
+            Mental Health Problems across Childhood and Adolescence. The
+            Journal of Child Psychology and Psychiatry. Online First. <a
+            href="https://doi.org/10.1111/jcpp.13572">https://doi.org/10.1111/jcpp.13572</a>.</p>
+            <p><strong>Speyer, L. G.</strong>, Ushakova, A., Hall, H.
+            A., Luciano, M., Auyeung, B., Murray, A. L. (2021).
+            Analysing Dynamic Change in Children’s Socio-Emotional
+            Development using the Strengths and Difficulties
+            Questionnaire in a large UK Longitudinal Study. Journal of
+            Abnormal Psychology. Online First. <a
+            href="https://doi.org/10.1037/abn0000714">https://doi.org/10.1037/abn0000714</a>.</p>
+            <p><strong>Speyer, L. G.</strong>, Neaves, S., Hall, H. A.,
+            Hemani G., Lombardo, M. V., Murray, A. L., <em>Auyeung
+            B</em>, <em>Luciano, M.</em> (2021). Polygenic Risks for
+            Joint Developmental Trajectories of Internalising and
+            Externalising Problems: Findings from the ALSPAC Cohort. The
+            Journal of Child Psychology and Psychiatry Online First. <a
+            href="https://doi.org/10.1111/jcpp.13549">https://doi.org/10.1111/jcpp.13549</a>.</p>
+            <p>Murray, A. L., Ushakova, A., <strong>Speyer, L.
+            G.</strong>, Brown, R., Auyeung, B., Zhu, X. (2021)
+            Sex/gender differences in individual and joint trajectories
+            of common mental health symptoms in early to middle
+            adolescence. JCPP Advances. Online First. <a
+            href="https://doi.org/10.1002/jcv2.12057">https://doi.org/10.1002/jcv2.12057</a>.</p>
+            <p><strong>Speyer, L. G.</strong>, Eisner, M., Ribeaud, D.,
+            Luciano, M., Auyeung, B., Murray, A. L. (2021).
+            Developmental Relations between Internalising Problems and
+            ADHD in Childhood: A Symptom Level Perspective. Research on
+            Child and Adolescent Psychopathology. Online First. <a
+            href="https://doi.org/10.1007/s10802-021-00856-3">https://doi.org/10.1007/s10802-021-00856-3</a>.</p>
+            <p>Hang Y, Soto C, <strong>Speyer, L. G.</strong>, Haring L,
+            Lee B, Ostendorfd B, Mõttus R. (2021). Age Differences in
+            the Big Five Personality Domains, Facets and Nuances: A
+            Replication across the life span. Journal of Research in
+            Personality. Online First.<a
+            href="https://doi.org/10.1016/j.jrp.2021.104121">https://doi.org/10.1016/j.jrp.2021.104121</a>.</p>
+            <p>Murray, A. L., <strong>Speyer, L. G.</strong>, Hall, H.
+            A., Valdebenito, S., Hughes, C. (2021). Teacher versus
+            parent informant invariance of the Strengths and
+            Difficulties Questionnaire. Journal of Pediatric Psychology.
+            Online First. <a
+            href="https://doi.org/10.1093/jpepsy/jsab062">https://doi.org/10.1093/jpepsy/jsab062</a>.</p>
+            <p>Hall, H. A., <strong>Speyer, L. G.</strong>, Murray, A.
+            L., Auyeung, B. (2021). Prenatal maternal infections and
+            children’s neurodevelopment in the UK Millennium Cohort
+            Study: A focus on ASD and ADHD. Journal of Attention
+            Disorders. Online First. <a
+            href="https://doi.org/10.1177/10870547211015422">https://doi.org/10.1177/10870547211015422</a>.</p>
+            <p><strong>Speyer, L. G.</strong>, Brown, R., Camus, L.,
+            Murray, A. L., Auyeung, B. (2021). Alexithymia and autistic
+            traits as contributing factors to empathy deficits in
+            preadolescent children. Journal of Autism and Developmental
+            Disorders. Online First. <a
+            href="https://doi.org/10.1007/s10803-021-04986-x">https://doi.org/10.1007/s10803-021-04986-x</a>.</p>
+            <p>Murray, A. L., <strong>Speyer, L. G.</strong>, Hall, H.
+            A., Valdebenito, S., Hughes, C. (2021). A longitudinal
+            invariance analysis of the Strengths and Difficulties
+            Questionnaire across ages 3,5,7,11,14 and 17 in a large
+            UK-representative sample. Assessment. Online First.<a
+            href="https://doi.org/10.1177/10731911211009312">https://doi.org/10.1177/10731911211009312</a>.</p>
+            <p>Murray A. L, Hall, H. A., <strong>Speyer, L. G.</strong>,
+            Carter L, Mirman D, Rhode L, Caye A. (2021). Brief
+            Developmental trajectories of ADHD symptoms in a large
+            population-representative longitudinal survey. Psychological
+            Medicine. Online First. <a
+            href="https://doi.org/10.1017/S0033291721000349">https://doi.org/10.1017/S0033291721000349</a>.</p>
+            <p>Murray, A. L., Obsuth, I., <strong>Speyer, L.
+            G.</strong>, Murray, G. C., McKenzie, K., Eisner, M.,
+            Ribeaud D. (2021). Developmental cascades from aggression to
+            internalizing problems via peer and teacher relationships
+            from early to middle adolescence. Journal of Youth and
+            Adolescence. Online First. <a
+            href="https://doi.org/10.1007/s10964-021-01396-1">https://doi.org/10.1007/s10964-021-01396-1</a>.</p>
+            </div>
+            <div id="section-2" class="section level2">
+            <h2><strong>2020</strong></h2>
+            <p><strong>Speyer, L. G.</strong>, Hall, H. A., Ushakova,
+            A., Murray, A. L., Luciano, M., Auyeung, B. (2020).
+            Longitudinal Effects of Breastfeeding on Parent-Reported
+            Child Behaviour. Archives of Disease in Childhood. Online
+            First. <a
+            href="http://dx.doi.org/10.1136/archdischild-2020-319038">http://dx.doi.org/10.1136/archdischild-2020-319038</a>.</p>
+            <p><strong>Speyer, L. G.</strong>, Hall, H. A., Ushakova,
+            A., Murray, A. L., Luciano, M., Auyeung, B. (2020). Links
+            between Perinatal Risk Factors and Maternal Psychological
+            Distress: A Network Analysis. Acta Obstetricia et
+            Gynecologica Scandinavica. Online First. <a
+            href="https://doi.org/10.1111/aogs.14056">https://doi.org/10.1111/aogs.14056</a>.</p>
+            <p>Hall, H. A., <strong>Speyer, L. G.</strong>, Murray, A.
+            L., Auyeung B. (2020). Prenatal maternal infections and
+            children’s socioemotional development: Findings from the UK
+            Millennium Cohort Study. European Child &amp; Adolescence
+            Psychiatry. Online First. <a
+            href="https://doi.org/10.1007/s00787-020-01644-y">https://doi.org/10.1007/s00787-020-01644-y</a>.</p>
+            </div>
+            <div id="section-3" class="section level2">
+            <h2><strong>2018</strong></h2>
+            <p><strong>Speyer, L. G.</strong>, Schleef, E. (2018).
+            Processing ‘Gender-neutral’ Pronouns: A Self-paced Reading
+            Study of Learners of English. Applied Linguistics, 40(5),
+            793-815. <a
+            href="https://doi.org/10.1093/applin/amy022">https://doi.org/10.1093/applin/amy022</a>.</p>
+            </div>
+            <div id="under-review" class="section level2">
+            <h2><strong>Under Review</strong></h2>
+            <p><strong>Speyer, L. G.</strong>, Hall, H. A., Ushakova,
+            A., Luciano, M., Murray, A. L., Auyeung, B. (revised and
+            resubmitted to Research on Child and Adolescent
+            Psychopathology). Dynamic Change in Socio-Emotional
+            Development during Childhood and Adolescence. PsyArXiv
+            pre-print: <a
+            href="https://doi.org/10.31234/osf.io/wn6pb">https://doi.org/10.31234/osf.io/wn6pb</a>.</p>
+            <p><strong>Speyer, L. G.</strong>, Brown, R., Ribeaud D.,
+            Eisner M., Murray, A. L. (revised and resubmitted to Journal
+            of Autism and Developmental Disorders) The role of
+            moment-to-moment dynamics of perceived stress and negative
+            affect in co-occurring ADHD and internalising symptoms.
+            PsyArXiv pre-print: <a
+            href="https://doi.org/10.31234/osf.io/d5u38">https://doi.org/10.31234/osf.io/d5u38</a>.</p>
+            <p>Hang, Y., Soto C, <strong>Speyer, L. G.</strong>, Lee B,
+            Murray, A., L., Mõttus, R. (revised and resubmitted to
+            Journal of Personality). Social expectations and abilities
+            to meet them as possible mechanisms of youth personality
+            development. PsyArXiv pre-print:<a
+            href="https://doi.org/10.31234/osf.io/8yp6x">https://doi.org/10.31234/osf.io/8yp6x</a>.</p>
+            <p><em>Hang, Y.</em>, <strong><em>Speyer, L.
+            G.</em></strong>, Haring, L., Murray, A., L., Mõttus, R.
+            (under review at Journal of Research in Personality).
+            Predicting the General P-factor of Psychopathology using
+            Lower Levels of the Personality Hierarchy. PsyArXiv
+            pre-print: <a
+            href="https://doi.org/10.31234/osf.io/g3aqh">https://doi.org/10.31234/osf.io/g3aqh</a>.</p>
+            <p>Murray, A. L., Grossart, C., Hall, H. A., <strong>Speyer,
+            L. G.</strong>, Harfetz Mirman, J., Mirman, D., Hughes, C.
+            (under review at The Journal of Child Psychology and
+            Psychiatry). Predictors of informant disagreements in child
+            mental health: an application of latent difference score
+            modelling.</p>
+            <p>Hall, H. A., <strong>Speyer, L. G.</strong>, Lombardo, M.
+            V., Murray, A. L., Auyeung, B. (under review at BMC Public
+            Health). Associations between prenatal maternal infections
+            and children’s socioemotional outcomes: Evidence from the
+            ALSPAC cohort. PsyArXiv pre-print: <a
+            href="https://doi.org/10.31234/osf.io/gf6m5">https://doi.org/10.31234/osf.io/gf6m5</a>.</p>
+            <p>Hall, H. A., <strong>Speyer, L. G.</strong>, Lombardo, M.
+            V., Murray, A. L., Auyeung, B. (under review at Epidemiology
+            and Psychiatric Sciences). Links between prenatal maternal
+            infections and childhood psychopathology: Evidence from the
+            ALSPAC birth cohort. PsyArXiv pre-print: <a
+            href="https://doi.org/10.31234/osf.io/hnbjg">https://doi.org/10.31234/osf.io/hnbjg</a>.</p>
+            <p>Best, K, <strong>Speyer, L. G.</strong>, Murray, A. L.,
+            Ushakova, A. (revised and resubmitted to Longitudinal and
+            Life Course Studies). Prediction of Attrition in Large
+            Longitudinal Studies: Tree-based methods versus Multinomial
+            Logistic Models. SocArXiv pre-print: <a
+            href="https://doi.org/10.31235/osf.io/tyszr">https://doi.org/10.31235/osf.io/tyszr</a>.</p>
+            <p>Hang, Y., <strong>Speyer, L. G.</strong>, Haring, L.,
+            Lee, B., Vainik, U., Luciano, M., Mõttus, R. (under review
+            at Journal of Research in Personality). Establishing a
+            Health Network of Personality Profiles for Adolescents and
+            Emerging Adults. PsyArXiv pre-print: <a
+            href="https://doi.org/10.31234/osf.io/4qh96">https://doi.org/10.31234/osf.io/4qh96</a>.</p>
+            <p>Brown, R., <strong>Speyer, L. G.</strong>, Obsuth, I.,
+            Ribeaud D., Eisner M., Murray, A. L. (under review at
+            Psychology of Addictive Behaviors). The mediating role of
+            emotional lability in the relation between adult ADHD
+            symptoms, alcohol and cannabis consumption: an ecological
+            momentary assessment study. PsyArXiv pre-print: <a
+            href="https://doi.org/10.31219/osf.io/9vwmc">https://doi.org/10.31219/osf.io/9vwmc</a>.</p>
+            <p>Kwok, J., <strong>Speyer, L. G.</strong>, Soursou, G.,
+            Murray, A. L., Fanti, K., Auyeung, B. (under review at Child
+            Development). Effects of maternal metabolic health on child
+            developmental outcomes: A Born in Bradford Study.</p>
+            <p>Brown, R., <strong>Speyer, L. G.</strong>, Eisner M.,
+            Ribeaud D., Murray, A. L. (under review at The Journal of
+            Child Psychology and Psychiatry) Exploring the effect of
+            ADHD traits on the moment-to-moment interplay between
+            provocation and aggression: evidence from dynamic structural
+            equation modelling. PsyArXiv pre-print: <a
+            href="https://doi.org/10.31234/osf.io/d5u38">https://doi.org/10.31234/osf.io/d5u38</a>.</p>
+            <p>Hemady, C. L., <strong>Speyer, L. G.</strong>, et al.,
+            (under review at BMC Pregnancy and Childbirth) Patterns of
+            adverse childhood experiences and associations with prenatal
+            substance use and poor infant outcomes in a multi-country
+            cohort of mothers: A Latent Class Analysis. MedArXiv
+            pre-print: <a
+            href="https://doi.org/10.1101/2021.07.23.21261027">https://doi.org/10.1101/2021.07.23.21261027</a>.</p>
+            <p>Hemady, C. L., <strong>Speyer, L. G.</strong>, Kwok, J.,
+            Meinck, F., Melendez-Torres, G. J., Fry, D., Auyeung, B.,
+            Murray, A. L. (under review at BMC Medicine) Using network
+            analysis to illuminate the intergenerational transmission of
+            adversity in the ALSPAC cohort.</p>
+            <p>Carter, L., <strong>Speyer, L. G.</strong>, Caye, A.,
+            Rhode, L., Murray, A. L. (under review at Psychological
+            Medicine). Late adolescent outcomes of different
+            developmental trajectories of ADHD symptoms in a large
+            longitudinal study. PsyArXiv pre-print: <a
+            href="https://doi.org/10.31234/osf.io/eb3vj">https://doi.org/10.31234/osf.io/eb3vj</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-flex min-vh-100 d-block d-lg-none d-xl-none">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-col">
+          <div class="mx-auto">
+            <div class="p-3 mt-3 text-center">
+              <img src="Journals.jpg" style="height:15rem" class="rounded">
+            </div>
+            <div class="p-2 text-center">
+              <h1>Publications</h1>
+            </div>
+            <hr style="width:60%;"/>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 p-1 text-center">
+                <div class="list-group">
+                                  </div>
+              </div>
+            </div>
+            <div class="p pt-4 px-5">
+              <div id="section" class="section level2">
+              <h2><strong>2022</strong></h2>
+              <p><strong>Speyer, L. G.</strong>, Hang, Y., Hall, H. A.,
+              Murray, A. L. (2022). The Role of Harsh Parenting
+              Practices in Early- to Middle-Childhood Socio-Emotional
+              Development: An Examination in the Millennium Cohort
+              Study. Child Development. In Press.</p>
+              <p>Antony, E. M., Pihlajamäki, M., <strong>Speyer, L.
+              G.</strong>, Murray, A. L. (2022). Does emotion
+              dysregulation mediate the association between ADHD
+              symptoms and internalizing problems? A longitudinal
+              within-person analysis in a large
+              population-representative study. The Journal of Child
+              Psychology and Psychiatry. Conditionally Accepted.</p>
+              <p><strong>Speyer, L. G.</strong>, Obsuth, I., Ribeaud D.,
+              Eisner M., Luciano, M., Auyeung, B., Murray, A. L. (2022).
+              Mediating Factors in Within-Person Developmental Cascades
+              of Externalising, Internalising and ADHD Symptoms in
+              Childhood. Research on Child and Adolescent
+              Psychopathology. In Press.</p>
+              </div>
+              <div id="section-1" class="section level2">
+              <h2><strong>2021</strong></h2>
+              <p><strong>Speyer, L. G.</strong>, Marryat, L. Auyeung, B.
+              (2021). Effects of COVID-19 Public Health Safety Measures
+              on Births in Scotland between March and May 2020. Public
+              Health. Online First. <a
+              href="https://doi.org/10.1016/j.puhe.2021.10.013">https://doi.org/10.1016/j.puhe.2021.10.013</a>.</p>
+              <p><strong>Speyer, L. G.</strong>, Eisner M., Ribeaud D.,
+              Luciano, M., Auyeung, B., Murray, A. L. (2021). A Symptom
+              Level Perspective on Reactive and Proactive Aggressive
+              Behaviours and ADHD Symptoms in Childhood. The Journal of
+              Child Psychology and Psychiatry. Online First. <a
+              href="https://doi.org/10.1111/jcpp.13556">https://doi.org/10.1111/jcpp.13556</a>.</p>
+              <p><strong>Speyer, L. G.</strong>, Hall, H. A., Hang, Y.,
+              Hughes, C., Murray, A. L. (2021). Within-Family Relations
+              of Mental Health Problems across Childhood and
+              Adolescence. The Journal of Child Psychology and
+              Psychiatry. Online First. <a
+              href="https://doi.org/10.1111/jcpp.13572">https://doi.org/10.1111/jcpp.13572</a>.</p>
+              <p><strong>Speyer, L. G.</strong>, Ushakova, A., Hall, H.
+              A., Luciano, M., Auyeung, B., Murray, A. L. (2021).
+              Analysing Dynamic Change in Children’s Socio-Emotional
+              Development using the Strengths and Difficulties
+              Questionnaire in a large UK Longitudinal Study. Journal of
+              Abnormal Psychology. Online First. <a
+              href="https://doi.org/10.1037/abn0000714">https://doi.org/10.1037/abn0000714</a>.</p>
+              <p><strong>Speyer, L. G.</strong>, Neaves, S., Hall, H.
+              A., Hemani G., Lombardo, M. V., Murray, A. L., <em>Auyeung
+              B</em>, <em>Luciano, M.</em> (2021). Polygenic Risks for
+              Joint Developmental Trajectories of Internalising and
+              Externalising Problems: Findings from the ALSPAC Cohort.
+              The Journal of Child Psychology and Psychiatry Online
+              First. <a
+              href="https://doi.org/10.1111/jcpp.13549">https://doi.org/10.1111/jcpp.13549</a>.</p>
+              <p>Murray, A. L., Ushakova, A., <strong>Speyer, L.
+              G.</strong>, Brown, R., Auyeung, B., Zhu, X. (2021)
+              Sex/gender differences in individual and joint
+              trajectories of common mental health symptoms in early to
+              middle adolescence. JCPP Advances. Online First. <a
+              href="https://doi.org/10.1002/jcv2.12057">https://doi.org/10.1002/jcv2.12057</a>.</p>
+              <p><strong>Speyer, L. G.</strong>, Eisner, M., Ribeaud,
+              D., Luciano, M., Auyeung, B., Murray, A. L. (2021).
+              Developmental Relations between Internalising Problems and
+              ADHD in Childhood: A Symptom Level Perspective. Research
+              on Child and Adolescent Psychopathology. Online First. <a
+              href="https://doi.org/10.1007/s10802-021-00856-3">https://doi.org/10.1007/s10802-021-00856-3</a>.</p>
+              <p>Hang Y, Soto C, <strong>Speyer, L. G.</strong>, Haring
+              L, Lee B, Ostendorfd B, Mõttus R. (2021). Age Differences
+              in the Big Five Personality Domains, Facets and Nuances: A
+              Replication across the life span. Journal of Research in
+              Personality. Online First.<a
+              href="https://doi.org/10.1016/j.jrp.2021.104121">https://doi.org/10.1016/j.jrp.2021.104121</a>.</p>
+              <p>Murray, A. L., <strong>Speyer, L. G.</strong>, Hall, H.
+              A., Valdebenito, S., Hughes, C. (2021). Teacher versus
+              parent informant invariance of the Strengths and
+              Difficulties Questionnaire. Journal of Pediatric
+              Psychology. Online First. <a
+              href="https://doi.org/10.1093/jpepsy/jsab062">https://doi.org/10.1093/jpepsy/jsab062</a>.</p>
+              <p>Hall, H. A., <strong>Speyer, L. G.</strong>, Murray, A.
+              L., Auyeung, B. (2021). Prenatal maternal infections and
+              children’s neurodevelopment in the UK Millennium Cohort
+              Study: A focus on ASD and ADHD. Journal of Attention
+              Disorders. Online First. <a
+              href="https://doi.org/10.1177/10870547211015422">https://doi.org/10.1177/10870547211015422</a>.</p>
+              <p><strong>Speyer, L. G.</strong>, Brown, R., Camus, L.,
+              Murray, A. L., Auyeung, B. (2021). Alexithymia and
+              autistic traits as contributing factors to empathy
+              deficits in preadolescent children. Journal of Autism and
+              Developmental Disorders. Online First. <a
+              href="https://doi.org/10.1007/s10803-021-04986-x">https://doi.org/10.1007/s10803-021-04986-x</a>.</p>
+              <p>Murray, A. L., <strong>Speyer, L. G.</strong>, Hall, H.
+              A., Valdebenito, S., Hughes, C. (2021). A longitudinal
+              invariance analysis of the Strengths and Difficulties
+              Questionnaire across ages 3,5,7,11,14 and 17 in a large
+              UK-representative sample. Assessment. Online First.<a
+              href="https://doi.org/10.1177/10731911211009312">https://doi.org/10.1177/10731911211009312</a>.</p>
+              <p>Murray A. L, Hall, H. A., <strong>Speyer, L.
+              G.</strong>, Carter L, Mirman D, Rhode L, Caye A. (2021).
+              Brief Developmental trajectories of ADHD symptoms in a
+              large population-representative longitudinal survey.
+              Psychological Medicine. Online First. <a
+              href="https://doi.org/10.1017/S0033291721000349">https://doi.org/10.1017/S0033291721000349</a>.</p>
+              <p>Murray, A. L., Obsuth, I., <strong>Speyer, L.
+              G.</strong>, Murray, G. C., McKenzie, K., Eisner, M.,
+              Ribeaud D. (2021). Developmental cascades from aggression
+              to internalizing problems via peer and teacher
+              relationships from early to middle adolescence. Journal of
+              Youth and Adolescence. Online First. <a
+              href="https://doi.org/10.1007/s10964-021-01396-1">https://doi.org/10.1007/s10964-021-01396-1</a>.</p>
+              </div>
+              <div id="section-2" class="section level2">
+              <h2><strong>2020</strong></h2>
+              <p><strong>Speyer, L. G.</strong>, Hall, H. A., Ushakova,
+              A., Murray, A. L., Luciano, M., Auyeung, B. (2020).
+              Longitudinal Effects of Breastfeeding on Parent-Reported
+              Child Behaviour. Archives of Disease in Childhood. Online
+              First. <a
+              href="http://dx.doi.org/10.1136/archdischild-2020-319038">http://dx.doi.org/10.1136/archdischild-2020-319038</a>.</p>
+              <p><strong>Speyer, L. G.</strong>, Hall, H. A., Ushakova,
+              A., Murray, A. L., Luciano, M., Auyeung, B. (2020). Links
+              between Perinatal Risk Factors and Maternal Psychological
+              Distress: A Network Analysis. Acta Obstetricia et
+              Gynecologica Scandinavica. Online First. <a
+              href="https://doi.org/10.1111/aogs.14056">https://doi.org/10.1111/aogs.14056</a>.</p>
+              <p>Hall, H. A., <strong>Speyer, L. G.</strong>, Murray, A.
+              L., Auyeung B. (2020). Prenatal maternal infections and
+              children’s socioemotional development: Findings from the
+              UK Millennium Cohort Study. European Child &amp;
+              Adolescence Psychiatry. Online First. <a
+              href="https://doi.org/10.1007/s00787-020-01644-y">https://doi.org/10.1007/s00787-020-01644-y</a>.</p>
+              </div>
+              <div id="section-3" class="section level2">
+              <h2><strong>2018</strong></h2>
+              <p><strong>Speyer, L. G.</strong>, Schleef, E. (2018).
+              Processing ‘Gender-neutral’ Pronouns: A Self-paced Reading
+              Study of Learners of English. Applied Linguistics, 40(5),
+              793-815. <a
+              href="https://doi.org/10.1093/applin/amy022">https://doi.org/10.1093/applin/amy022</a>.</p>
+              </div>
+              <div id="under-review" class="section level2">
+              <h2><strong>Under Review</strong></h2>
+              <p><strong>Speyer, L. G.</strong>, Hall, H. A., Ushakova,
+              A., Luciano, M., Murray, A. L., Auyeung, B. (revised and
+              resubmitted to Research on Child and Adolescent
+              Psychopathology). Dynamic Change in Socio-Emotional
+              Development during Childhood and Adolescence. PsyArXiv
+              pre-print: <a
+              href="https://doi.org/10.31234/osf.io/wn6pb">https://doi.org/10.31234/osf.io/wn6pb</a>.</p>
+              <p><strong>Speyer, L. G.</strong>, Brown, R., Ribeaud D.,
+              Eisner M., Murray, A. L. (revised and resubmitted to
+              Journal of Autism and Developmental Disorders) The role of
+              moment-to-moment dynamics of perceived stress and negative
+              affect in co-occurring ADHD and internalising symptoms.
+              PsyArXiv pre-print: <a
+              href="https://doi.org/10.31234/osf.io/d5u38">https://doi.org/10.31234/osf.io/d5u38</a>.</p>
+              <p>Hang, Y., Soto C, <strong>Speyer, L. G.</strong>, Lee
+              B, Murray, A., L., Mõttus, R. (revised and resubmitted to
+              Journal of Personality). Social expectations and abilities
+              to meet them as possible mechanisms of youth personality
+              development. PsyArXiv pre-print:<a
+              href="https://doi.org/10.31234/osf.io/8yp6x">https://doi.org/10.31234/osf.io/8yp6x</a>.</p>
+              <p><em>Hang, Y.</em>, <strong><em>Speyer, L.
+              G.</em></strong>, Haring, L., Murray, A., L., Mõttus, R.
+              (under review at Journal of Research in Personality).
+              Predicting the General P-factor of Psychopathology using
+              Lower Levels of the Personality Hierarchy. PsyArXiv
+              pre-print: <a
+              href="https://doi.org/10.31234/osf.io/g3aqh">https://doi.org/10.31234/osf.io/g3aqh</a>.</p>
+              <p>Murray, A. L., Grossart, C., Hall, H. A.,
+              <strong>Speyer, L. G.</strong>, Harfetz Mirman, J.,
+              Mirman, D., Hughes, C. (under review at The Journal of
+              Child Psychology and Psychiatry). Predictors of informant
+              disagreements in child mental health: an application of
+              latent difference score modelling.</p>
+              <p>Hall, H. A., <strong>Speyer, L. G.</strong>, Lombardo,
+              M. V., Murray, A. L., Auyeung, B. (under review at BMC
+              Public Health). Associations between prenatal maternal
+              infections and children’s socioemotional outcomes:
+              Evidence from the ALSPAC cohort. PsyArXiv pre-print: <a
+              href="https://doi.org/10.31234/osf.io/gf6m5">https://doi.org/10.31234/osf.io/gf6m5</a>.</p>
+              <p>Hall, H. A., <strong>Speyer, L. G.</strong>, Lombardo,
+              M. V., Murray, A. L., Auyeung, B. (under review at
+              Epidemiology and Psychiatric Sciences). Links between
+              prenatal maternal infections and childhood
+              psychopathology: Evidence from the ALSPAC birth cohort.
+              PsyArXiv pre-print: <a
+              href="https://doi.org/10.31234/osf.io/hnbjg">https://doi.org/10.31234/osf.io/hnbjg</a>.</p>
+              <p>Best, K, <strong>Speyer, L. G.</strong>, Murray, A. L.,
+              Ushakova, A. (revised and resubmitted to Longitudinal and
+              Life Course Studies). Prediction of Attrition in Large
+              Longitudinal Studies: Tree-based methods versus
+              Multinomial Logistic Models. SocArXiv pre-print: <a
+              href="https://doi.org/10.31235/osf.io/tyszr">https://doi.org/10.31235/osf.io/tyszr</a>.</p>
+              <p>Hang, Y., <strong>Speyer, L. G.</strong>, Haring, L.,
+              Lee, B., Vainik, U., Luciano, M., Mõttus, R. (under review
+              at Journal of Research in Personality). Establishing a
+              Health Network of Personality Profiles for Adolescents and
+              Emerging Adults. PsyArXiv pre-print: <a
+              href="https://doi.org/10.31234/osf.io/4qh96">https://doi.org/10.31234/osf.io/4qh96</a>.</p>
+              <p>Brown, R., <strong>Speyer, L. G.</strong>, Obsuth, I.,
+              Ribeaud D., Eisner M., Murray, A. L. (under review at
+              Psychology of Addictive Behaviors). The mediating role of
+              emotional lability in the relation between adult ADHD
+              symptoms, alcohol and cannabis consumption: an ecological
+              momentary assessment study. PsyArXiv pre-print: <a
+              href="https://doi.org/10.31219/osf.io/9vwmc">https://doi.org/10.31219/osf.io/9vwmc</a>.</p>
+              <p>Kwok, J., <strong>Speyer, L. G.</strong>, Soursou, G.,
+              Murray, A. L., Fanti, K., Auyeung, B. (under review at
+              Child Development). Effects of maternal metabolic health
+              on child developmental outcomes: A Born in Bradford
+              Study.</p>
+              <p>Brown, R., <strong>Speyer, L. G.</strong>, Eisner M.,
+              Ribeaud D., Murray, A. L. (under review at The Journal of
+              Child Psychology and Psychiatry) Exploring the effect of
+              ADHD traits on the moment-to-moment interplay between
+              provocation and aggression: evidence from dynamic
+              structural equation modelling. PsyArXiv pre-print: <a
+              href="https://doi.org/10.31234/osf.io/d5u38">https://doi.org/10.31234/osf.io/d5u38</a>.</p>
+              <p>Hemady, C. L., <strong>Speyer, L. G.</strong>, et al.,
+              (under review at BMC Pregnancy and Childbirth) Patterns of
+              adverse childhood experiences and associations with
+              prenatal substance use and poor infant outcomes in a
+              multi-country cohort of mothers: A Latent Class Analysis.
+              MedArXiv pre-print: <a
+              href="https://doi.org/10.1101/2021.07.23.21261027">https://doi.org/10.1101/2021.07.23.21261027</a>.</p>
+              <p>Hemady, C. L., <strong>Speyer, L. G.</strong>, Kwok,
+              J., Meinck, F., Melendez-Torres, G. J., Fry, D., Auyeung,
+              B., Murray, A. L. (under review at BMC Medicine) Using
+              network analysis to illuminate the intergenerational
+              transmission of adversity in the ALSPAC cohort.</p>
+              <p>Carter, L., <strong>Speyer, L. G.</strong>, Caye, A.,
+              Rhode, L., Murray, A. L. (under review at Psychological
+              Medicine). Late adolescent outcomes of different
+              developmental trajectories of ADHD symptoms in a large
+              longitudinal study. PsyArXiv pre-print: <a
+              href="https://doi.org/10.31234/osf.io/eb3vj">https://doi.org/10.31234/osf.io/eb3vj</a>.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+      <!--radix_placeholder_site_after_body-->
+      <!--/radix_placeholder_site_after_body-->
+      <!--radix_placeholder_navigation_after_body-->
+      <!--/radix_placeholder_navigation_after_body-->
+  
+  </body>
+</html>
