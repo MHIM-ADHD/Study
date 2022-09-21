@@ -1,0 +1,8 @@
+---
+title: "Study Findings"
+output:
+  postcards::trestles
+image: "Journals.jpg" 
+---
+
+<font size="4">Once we have results, we will summarise our findings here. We will also include a list of any published articles resulting from this study on this page.</font>
