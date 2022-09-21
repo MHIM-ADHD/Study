@@ -1,15 +1,10 @@
-name: "my-website"
-output_dir: "docs"
-navbar:
-  title: "Mental Health in the Moment - ADHD Study"
-  left:
-    - text: "About the Study"
-      href: index.html
-    - text: "Information Sheets"
-      href: about.html
+name: "My new website"
+output_dir: 'docs'
 output:
   html_document:
-    theme: cosmo
+    theme: cerulean
+    highlight: zenburn
     toc: true
-    highlight: textmate
-    css: styles.css
+    toc_depth: 2
+    toc_float:
+      collapsed: false
