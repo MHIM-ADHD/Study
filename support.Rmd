@@ -18,4 +18,4 @@ YoungMinds is the UK's leading charity championing the wellbeing and mental heal
 
 Being a Samaritan means being there for people who need someone to listen. They give people ways to cope and the skills to be there for others. They encourage, promote and celebrate those moments of connection between people that can save lives.
 
-<span style="color:red">If you are having a mental health crisis and in the UK, please call 111 and press option 2 for the First Response Service – a 24-hour service for people in mental health crisis.</span>
+<span style="color:red">If you are having a mental health crisis, please call 111 and press option 2 for the First Response Service – a 24-hour service for people in mental health crisis.</span>
