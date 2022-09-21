@@ -1,10 +1,26 @@
-name: "My new website"
-output_dir: 'docs'
-output:
-  html_document:
-    theme: cerulean
-    highlight: zenburn
-    toc: true
-    toc_depth: 2
-    toc_float:
-      collapsed: false
+name: "Website"
+title: "Mental Health in the Moment - ADHD Study"
+description: |
+  My Blog
+output_dir: "docs"
+navbar:
+  left:
+    - text: "Advisory Groups"
+      menu:
+       - text: "Young People Advisory Group"
+         href: ./advisory1.html
+       - text: "Parent Advisory Group"
+         href: ./advisory2.html
+    - text: "EMA Participants"
+      menu:
+       - text: "Information for Young People"
+         href: ./info1.html
+       - text: "Information for Parents"
+         href: ./info2.html
+    - text: "Study Findings"
+      href: ./findings.html
+    - text: "Mental Health Support"
+      href: ./support.html
+    - text: "Contact"
+      href: ./contact.html
+output: distill::distill_article
