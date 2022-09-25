@@ -1,0 +1,36 @@
+---
+title: "Study Participants - Information for Parents"
+output:
+  postcards::trestles
+image: "ADHD.jpg" 
+---
+<h3 style="text-align: center;"><span style="color:darkblue">*Help us improve our understanding of how to support young people with ADHD*</span></h3> 
+
+&nbsp;<br>
+
+### What is this study about?
+We are inviting your child and you to take part in a research project exploring the experiences of young people with ADHD. The project will explore many aspects of daily life including friends, managing emotions and mental health. As part of this study, we will ask your child to do the following:
+- Take part in an online survey that takes approximately 20 minutes, exploring friendships, relationships, emotions, and mental health.  
+- Download a smartphone app and answer a few questions about your emotions and behaviours five times a day for two-weeks.
+- At the end of the two-week period, complete another brief online survey taking less than 10 minutes. 
+We will also ask you parents to fill in a questionnaire at the beginning and at the end of the study, each taking approximately 10-20 minutes.
+
+### Who can take part in the study?
+Young people **aged 12 to 14** with a **diagnosis of ADHD** and one of their parents/caregivers can participate in this study.
+
+### Will my child need to own a smartphone?
+If your child doesn't own a smartphone, we will provide them with one for the duration of the study.
+
+### Will my child be compensated?
+Yes, your child will be compensated with a **£30 shopping voucher**!
+
+### How can my child and I take part in the study?
+
+This [link](https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq) will take you to an information page which gives you all the information you need before deciding whether you and your child would like to take part in the study. Before your child can start participating, you will need to sign a consent form to say that you are happy for them to participate. This form will be available at the end of the linked information page. Once you have completed the form you can start filling in the first questionnaire. At that time, you will also receive a link to the young person information page which also includes a form for your child to fill in to let us know whether they would like to take part in the study. After they have completed this form, they can also fill in the first questionnaire and, once they have done that, we will ask your child to download the app to fill in the brief surveys for the next two weeks.Once the two weeks are over, we will send both you and your child another link that will take you to the end-of-study questionnaire. Throughout the study, we will be offering video calls to help with any questions you and your child may have, for example relating to the completion of consent forms or the setting up of the smartphone app. 
+
+&nbsp;<br>
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("uoe.png")
+``` 

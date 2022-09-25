@@ -1,0 +1,36 @@
+---
+title: "Study Participants - Information for Young People"
+output:
+  postcards::trestles
+image: "teens.jpg" 
+---
+<h3 style="text-align: center;"><span style="color:darkblue">*Help us improve our understanding of how to support young people with ADHD*</span></h3> 
+
+&nbsp;<br>
+
+### What is this study about?
+We are inviting you and one of your parents/caregivers to take part in a research project exploring the experiences of young people with ADHD. The project will explore many aspects of daily life including friends, managing emotions and mental health. As part of this study, we will ask you to do the following:
+- Take part in an online survey that takes approximately 20 minutes, exploring friendships, relationships, emotions, and mental health.  
+- Download a smartphone app and answer a few questions about your emotions and behaviours five times a day for two-weeks.
+- At the end of the two-week period, complete another brief online survey taking less than 10 minutes. 
+We will also ask your parents to fill in a questionnaire at the beginning and at the end of the study but they won't need to answer questions on their phone.
+
+### Who can take part in the study?
+Young people **aged 12 to 14** with a **diagnosis of ADHD** and one of their parents/caregivers can participate in this study.
+
+### Will I need my own smartphone?
+If you don't own your own smartphone, we will provide you with one for the duration of the study.
+
+### Will I be compensated?
+Yes, you will be compensated with a **£30 shopping voucher**!
+
+### How can I take part in the study?
+
+This link [link to information page for young people (Qualtrics without assent form or PDF)] will take you to an information page which will give you all the information you need before deciding whether you want to take part in the study. Before you can take part, you also need to get approval from one of your parents/caregivers. We have prepared an [information page](https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq) for them as well. At the end of the parent information page, we ask your parent/caregiver to fill in a short form, stating that they are happy for you to take part. Once they have completed the form, they will receive a link for you to sign up to participate in the study. You will also have to fill in a form to say that you agree to take part. After you have completed this form, you can start filling in the first questionnaire. Once you have done that, we will ask you to download the app to fill in the brief surveys for the next two weeks.
+
+&nbsp;<br>
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("uoe.png")
+``` 

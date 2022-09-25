@@ -1,0 +1,28 @@
+---
+title: "Parent Advisory Group"
+output:
+  postcards::trestles
+image: "PAG.JPG" 
+---
+<h3 style="text-align: center;"><span style="color:darkgreen">*Share your experiences and views on which factors you think are most important for supporting young people with ADHD and their families.*</span></h3> 
+
+&nbsp;<br>
+
+### What is this advisory group about?
+We would like you to advise on a research project investigating the daily life experiences of adolescents with a diagnosis of ADHD. The views of parents of young people with ADHD will be really important for this project. Your role is to help us understand which factors you think are most important for improving the lives of young people with ADHD and that researchers should look into more. We are especially interested in how smartphones can be used to support adolescents with ADHD in regulating their emotions and enabling positive peer relationships. You are invited to share your views on the design of this project by taking part in three group discussions with five other parents of young people with ADHD and members of our research team. These discussions will take place at the Department of Psychology at the University of Edinburgh over the course of this two-year project. 
+
+### Who can take part in the advisory group?
+Parents of young people **aged 12 to 14** with a **diagnosis of ADHD** can participate in this advisory group.
+
+### Will I be compensated?
+You will be compensated with **£30 per group discussion** (**£90 total** for three sessions)! Local travel expenses will be covered and refreshments will be provided.  
+
+### How can I take part in the advisory group?
+This link [link to Qualtrics information page] will take you to an information page which will give you all the information you need before deciding whether you want to be a member of the advisory group. At the end of the information page, we ask you to fill in a form to say that you agree to be a member of the advisory group and we will then get in touch with you to arrange a time to meet as a group so you can share your views on the daily life experiences of adolescents with ADHD.
+
+&nbsp;<br>
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("uoe.png")
+``` 

@@ -28,3 +28,11 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("phone.jpg")
 ``` 
 
+&nbsp;<br>
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("uoe.png")
+``` 
+
+

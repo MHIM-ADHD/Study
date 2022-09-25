@@ -1,13 +1,11 @@
 name: "Website"
-title: "Mental Health in the Moment - ADHD Study"
-description: |
-  My Blog
 output_dir: "docs"
 navbar:
+  title: "Mental Health in the Moment - ADHD Study"
   left:
     - text: "Advisory Group Members"
       menu:
-       - text: "Young People Advisory Group"
+       - text: "Young Person Advisory Group"
          href: ./advisory1.html
        - text: "Parent Advisory Group"
          href: ./advisory2.html
@@ -23,4 +21,5 @@ navbar:
       href: ./support.html
     - text: "Contact"
       href: ./contact.html
-output: distill::distill_article
+output: 
+  distill::distill_article
