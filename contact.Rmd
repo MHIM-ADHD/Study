@@ -6,9 +6,9 @@ image: "contact.png"
 ---
 
 
-<font size="5">If you have any questions about the study, please get in touch.
+<font size="4">If you have any questions about the study, please get in touch via our email hotline: [study email].
 
-- Dr Aja Murray: [aja.murray@ed.ac.uk](aja.murray@ed.ac.uk)
-- Dr Lydia Speyer: [lspeyer@ed.ac.uk](lspeyer@ed.ac.uk)
+- Overall Research Project Lead: Dr Aja Murray: [aja.murray@ed.ac.uk](aja.murray@ed.ac.uk)
+- Advisory Group Lead: Dr Lydia Speyer: [lspeyer@ed.ac.uk](lspeyer@ed.ac.uk)
 
 If you have questions or comments regarding your rights as a participant, you can contact [PPLS.studies@ed.ac.uk](PPLS.studies@ed.ac.uk)</font>
