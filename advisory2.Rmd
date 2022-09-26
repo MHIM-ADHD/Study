@@ -1,12 +1,13 @@
 ---
 title: "Parent Advisory Group"
-output:
-  postcards::trestles
-image: "PAG.JPG" 
+image: "PAG.jpg" 
 ---
 <h3 style="text-align: center;"><span style="color:darkgreen">*Share your experiences and views on which factors you think are most important for supporting young people with ADHD and their families.*</span></h3> 
 
-&nbsp;<br>
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("PAG.jpg")
+``` 
 
 ### What is this advisory group about?
 We would like you to advise on a research project investigating the daily life experiences of adolescents with a diagnosis of ADHD. The views of parents of young people with ADHD will be really important for this project. Your role is to help us understand which factors you think are most important for improving the lives of young people with ADHD and that researchers should look into more. We are especially interested in how smartphones can be used to support adolescents with ADHD in regulating their emotions and enabling positive peer relationships. You are invited to share your views on the design of this project by taking part in three group discussions with five other parents of young people with ADHD and members of our research team. These discussions will take place at the Department of Psychology at the University of Edinburgh over the course of this two-year project. 

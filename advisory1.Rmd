@@ -1,12 +1,13 @@
 ---
 title: "Young Person Advisory Group"
-output:
-  postcards::trestles
 image: "YPAG.jfif" 
 ---
 <h3 style="text-align: center;"><span style="color:darkblue">*Share your experiences and views on which factors you think are most important for supporting young people with ADHD.*</span></h3> 
 
-&nbsp;<br>
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("YPAG.jfif")
+``` 
 
 ### What is this advisory group about?
 We would like you to advise on a research project investigating the daily life experiences of adolescents with a diagnosis of ADHD. Young people's views will be really important for this project.  Your role is to use your experience of ADHD to help us design a research study and interpret its findings through three individual discussions with a member of our research team. These discussions will take place at times that are convenient for you at the Department of Psychology at the University of Edinburgh. 

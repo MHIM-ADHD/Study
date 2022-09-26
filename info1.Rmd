@@ -1,12 +1,13 @@
 ---
 title: "Study Participants - Information for Young People"
-output:
-  postcards::trestles
 image: "teens.jpg" 
 ---
 <h3 style="text-align: center;"><span style="color:darkblue">*Help us improve our understanding of how to support young people with ADHD*</span></h3> 
 
-&nbsp;<br>
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("teens.jpg")
+``` 
 
 ### What is this study about?
 We are inviting you and one of your parents/caregivers to take part in a research project exploring the experiences of young people with ADHD. The project will explore many aspects of daily life including friends, managing emotions and mental health. As part of this study, we will ask you to do the following:
@@ -26,7 +27,7 @@ Yes, you will be compensated with a **£30 shopping voucher**!
 
 ### How can I take part in the study?
 
-This link [link to information page for young people (Qualtrics without assent form or PDF)] will take you to an information page which will give you all the information you need before deciding whether you want to take part in the study. Before you can take part, you also need to get approval from one of your parents/caregivers. We have prepared an [information page](https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq) for them as well. At the end of the parent information page, we ask your parent/caregiver to fill in a short form, stating that they are happy for you to take part. Once they have completed the form, they will receive a link for you to sign up to participate in the study. You will also have to fill in a form to say that you agree to take part. After you have completed this form, you can start filling in the first questionnaire. Once you have done that, we will ask you to download the app to fill in the brief surveys for the next two weeks.
+This link [link to information page for young people (Qualtrics without assent form or PDF)] will take you to an information page which will give you all the information you need before deciding whether you want to take part in the study. Before you can take part, you also need to get approval from one of your parents/caregivers. We have prepared an <a href="https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq" style="color: blue;">information page</a> for them as well. At the end of the parent information page, we ask your parent/caregiver to fill in a short form, stating that they are happy for you to take part. Once they have completed the form, they will receive a link for you to sign up to participate in the study. You will also have to fill in a form to say that you agree to take part. After you have completed this form, you can start filling in the first questionnaire. Once you have done that, we will ask you to download the app to fill in the brief surveys for the next two weeks.
 
 &nbsp;<br>
 

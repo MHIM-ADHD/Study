@@ -1,17 +1,18 @@
 ---
 title: "Contact"
-output:
-  postcards::trestles
-image: "contact.jpg" 
 ---
-
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::include_graphics("contact.jpg")
+``` 
 
 <font size="4">If you have any questions about the study, please get in touch via our email hotline: [study email].
 
-- Overall Research Project Lead: Dr Aja Murray: [aja.murray@ed.ac.uk](aja.murray@ed.ac.uk)
-- Advisory Group Lead: Dr Lydia Speyer: [lspeyer@ed.ac.uk](lspeyer@ed.ac.uk)
+- Overall Research Project Lead: Dr Aja Murray: <a href="mailto:aja.murray@ed.ac.uk" style="color: blue;">aja.murray@ed.ac.uk</a>
 
-If you have questions or comments regarding your rights as a participant, you can contact [PPLS.studies@ed.ac.uk](PPLS.studies@ed.ac.uk)</font>
+- Advisory Group Lead: Dr Lydia Speyer: <a href="mailto:lspeyer@ed.ac.uk" style="color: blue;">lspeyer@ed.ac.uk</a> 
+
+If you have questions or comments regarding your rights as a participant, you can contact <a href="mailto:PPLS.studies@ed.ac.uk" style="color: blue;">PPLS.studies@ed.ac.uk</a> 
 
 &nbsp;<br>
 

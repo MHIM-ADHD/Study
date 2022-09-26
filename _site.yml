@@ -22,4 +22,5 @@ navbar:
     - text: "Contact"
       href: ./contact.html
 output: 
-  distill::distill_article
+  distill::distill_article:
+    css: styles.css
