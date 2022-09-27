@@ -1,18 +1,19 @@
 ---
 title: "Study Participants - Information for Parents"
-image: "ADHD.jpg" 
 ---
-<h3 style="text-align: center;"><span style="color:darkblue">*Help us improve our understanding of how to support young people with ADHD*</span></h3> 
-
+<h3 style="text-align: center;"><span style="color:darkblue">*Help us improve our understanding of how to support young people with ADHD and their families.*</span></h3> 
+<h2 style="text-align: center;"><span style="color:black">If you are ready to start participating, please click this <a href="https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq" style="color: blue;">link.</a></span></h2> 
 ```{r, echo = FALSE, fig.align = 'center'}
 knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("ADHD.jpg")
 ``` 
-
 ### What is this study about?
 We are inviting your child and you to take part in a research project exploring the experiences of young people with ADHD. The project will explore many aspects of daily life including friends, managing emotions and mental health. As part of this study, we will ask your child to do the following:
+
 - Take part in an online survey that takes approximately 20 minutes, exploring friendships, relationships, emotions, and mental health.  
+
 - Download a smartphone app and answer a few questions about your emotions and behaviours five times a day for two-weeks.
+
 - At the end of the two-week period, complete another brief online survey taking less than 10 minutes. 
 We will also ask you parents to fill in a questionnaire at the beginning and at the end of the study, each taking approximately 10-20 minutes.
 

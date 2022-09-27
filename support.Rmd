@@ -1,6 +1,5 @@
 ---
 title: "Mental Health Support Providers"
-image: "support.png" 
 ---
 ```{r, echo = FALSE, fig.align = 'center'}
 knitr::opts_chunk$set(echo = FALSE)

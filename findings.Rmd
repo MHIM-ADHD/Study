@@ -1,8 +1,5 @@
 ---
 title: "Study Findings"
-output: 
-  distill::distill_article:
-    css: styles.css
 ---
 ```{r, echo = FALSE, fig.align = 'center'}
 knitr::opts_chunk$set(echo = FALSE)

@@ -1,6 +1,5 @@
 ---
 title: "Young Person Advisory Group"
-image: "YPAG.jfif" 
 ---
 <h3 style="text-align: center;"><span style="color:darkblue">*Share your experiences and views on which factors you think are most important for supporting young people with ADHD.*</span></h3> 
 

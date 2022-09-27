@@ -1,6 +1,5 @@
 ---
 title: "Study Participants - Information for Young People"
-image: "teens.jpg" 
 ---
 <h3 style="text-align: center;"><span style="color:darkblue">*Help us improve our understanding of how to support young people with ADHD*</span></h3> 
 
@@ -11,9 +10,13 @@ knitr::include_graphics("teens.jpg")
 
 ### What is this study about?
 We are inviting you and one of your parents/caregivers to take part in a research project exploring the experiences of young people with ADHD. The project will explore many aspects of daily life including friends, managing emotions and mental health. As part of this study, we will ask you to do the following:
+
 - Take part in an online survey that takes approximately 20 minutes, exploring friendships, relationships, emotions, and mental health.  
+
 - Download a smartphone app and answer a few questions about your emotions and behaviours five times a day for two-weeks.
+
 - At the end of the two-week period, complete another brief online survey taking less than 10 minutes. 
+
 We will also ask your parents to fill in a questionnaire at the beginning and at the end of the study but they won't need to answer questions on their phone.
 
 ### Who can take part in the study?

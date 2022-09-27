@@ -1,6 +1,5 @@
 ---
 title: "Parent Advisory Group"
-image: "PAG.jpg" 
 ---
 <h3 style="text-align: center;"><span style="color:darkgreen">*Share your experiences and views on which factors you think are most important for supporting young people with ADHD and their families.*</span></h3> 
 
