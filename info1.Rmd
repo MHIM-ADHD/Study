@@ -1,7 +1,7 @@
 ---
 title: "Study Participants - Information for Young People"
 ---
-<h3 style="text-align: center;"><span style="color:darkblue">*Help us improve our understanding of how to support young people with ADHD*</span></h3> 
+<h3 style="text-align: center;"><span style="color:darkblue">*Help us improve our understanding of how to support young people with ADHD and their families*</span></h3> 
 
 <h2 style="text-align: center;"><span style="color:black">To take part, your parent/caregiver should go to this <a href="https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq" style="color: blue;">link.</a></span></h2>  
 
