@@ -3,6 +3,8 @@ title: "Study Participants - Information for Young People"
 ---
 <h3 style="text-align: center;"><span style="color:darkblue">*Help us improve our understanding of how to support young people with ADHD*</span></h3> 
 
+<h2 style="text-align: center;"><span style="color:black">To take part, your parent/caregiver should go to this <a href="https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq" style="color: blue;">link.</a></span></h2>  
+
 ```{r, echo = FALSE, fig.align = 'center'}
 knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("teens.jpg")
@@ -11,26 +13,29 @@ knitr::include_graphics("teens.jpg")
 ### What is this study about?
 We are inviting you and one of your parents/caregivers to take part in a research project exploring the experiences of young people with ADHD. The project will explore many aspects of daily life including friends, managing emotions and mental health. As part of this study, we will ask you to do the following:
 
-- Take part in an online survey that takes approximately 20 minutes, exploring friendships, relationships, emotions, and mental health.  
+-	Take part in an online survey that takes approximately 20 minutes, exploring friendships, relationships, emotions, and mental health.
 
-- Download a smartphone app and answer a few questions about your emotions and behaviours five times a day for two-weeks.
+-	Download a smartphone app and answer a few questions about your emotions and behaviours five times a day for two-weeks.
 
-- At the end of the two-week period, complete another brief online survey taking less than 10 minutes. 
+-	At the end of the two-week period, complete another brief online survey taking less than 10 minutes.
 
-We will also ask your parents to fill in a questionnaire at the beginning and at the end of the study but they won't need to answer questions on their phone.
+We will also ask your parents to fill in a questionnaire at the beginning and at the end of the study but they won’t need to answer questions on their phone.
 
-### Who can take part in the study?
+
+### Who can take part?
 Young people **aged 12 to 14** with a **diagnosis of ADHD** and one of their parents/caregivers can participate in this study.
 
-### Will I need my own smartphone?
-If you don't own your own smartphone, we will provide you with one for the duration of the study.
+### Will I need a smartphone?
+If you don't have your own smartphone, we can provide you with one. Please email the study helpline [study email and let us know that you will need one.
 
 ### Will I be compensated?
-Yes, you will be compensated with a **£30 shopping voucher**!
+You will receive a **shopping voucher** worth up to **£30**.
 
-### How can I take part in the study?
+### How can I take part?
 
-This link [link to information page for young people (Qualtrics without assent form or PDF)] will take you to an information page which will give you all the information you need before deciding whether you want to take part in the study. Before you can take part, you also need to get approval from one of your parents/caregivers. We have prepared an <a href="https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq" style="color: blue;">information page</a> for them as well. At the end of the parent information page, we ask your parent/caregiver to fill in a short form, stating that they are happy for you to take part. Once they have completed the form, they will receive a link for you to sign up to participate in the study. You will also have to fill in a form to say that you agree to take part. After you have completed this form, you can start filling in the first questionnaire. Once you have done that, we will ask you to download the app to fill in the brief surveys for the next two weeks.
+This link [link to information page for young people (Qualtrics without assent form or PDF)] will take you to an information page which will give you all the information you need before deciding whether you want to take part in the study. **If you want to take part, the next step is for your parent/caregiver to visit this <a href="https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq" style="color: blue;">information page</a>.** We will ask your parent/caregiver to fill in a short form, stating that they are happy for you to take part. Once they have completed the form, they will receive a link for you to sign up to take part and further step-by-step instructions will be provided.
+
+<h3 style="text-align: center;">**To take part, your parent/caregiver should go to this <a href="https://edinburgh.eu.qualtrics.com/jfe/form/SV_agdkr7R72tsPHcq" style="color: blue;">link</a>**.<h3> 
 
 &nbsp;<br>
 

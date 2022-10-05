@@ -3,18 +3,10 @@ output_dir: "docs"
 navbar:
   title: "Mental Health in the Moment - ADHD Study"
   left:
-    - text: "Advisory Group Members"
-      menu:
-       - text: "Young Person Advisory Group"
-         href: ./advisory1.html
-       - text: "Parent Advisory Group"
-         href: ./advisory2.html
-    - text: "Study Participants"
-      menu:
-       - text: "Information for Young People"
-         href: ./info1.html
-       - text: "Information for Parents"
-         href: ./info2.html
+    - text: "Information for Young People"
+      href: ./info1.html
+    - text: "Information for Parents"
+      href: ./info2.html
     - text: "Study Findings"
       href: ./findings.html
     - text: "Mental Health Support"

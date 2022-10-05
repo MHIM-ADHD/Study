@@ -10,8 +10,6 @@ knitr::include_graphics("contact.jpg")
 
 - Overall Research Project Lead: Dr Aja Murray: <a href="mailto:aja.murray@ed.ac.uk" style="color: blue;">aja.murray@ed.ac.uk</a>
 
-- Advisory Group Lead: Dr Lydia Speyer: <a href="mailto:lspeyer@ed.ac.uk" style="color: blue;">lspeyer@ed.ac.uk</a> 
-
 If you have questions or comments regarding your rights as a participant, you can contact <a href="mailto:PPLS.studies@ed.ac.uk" style="color: blue;">PPLS.studies@ed.ac.uk</a> 
 
 &nbsp;<br>
