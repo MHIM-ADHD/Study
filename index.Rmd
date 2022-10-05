@@ -2,11 +2,11 @@
 title: "Mental Health in the Moment - ADHD Study"
 site: distill::distill_website
 ---
-<h1 style="text-align: center;">*Understanding the daily life experiences of adolescents with ADHD*</h1>
+<h2 style="text-align: center;"><span style="color:black">*Understanding the daily life experiences of adolescents with ADHD*</span></h2>
 
 ```{r, echo = FALSE, fig.align = 'center'}
 knitr::opts_chunk$set(echo = FALSE)
-knitr::include_graphics("logo_new.png")
+knitr::include_graphics("logo_new.PNG")
 ``` 
 
 ### What is MHIM-ADHD?
