@@ -6,7 +6,7 @@ site: distill::distill_website
 
 ```{r, echo = FALSE, fig.align = 'center'}
 knitr::opts_chunk$set(echo = FALSE)
-knitr::include_graphics("logo_new.PNG")
+knitr::include_graphics("logo_new_qualtrics.PNG")
 ``` 
 
 ### What is MHIM-ADHD?
