@@ -25,7 +25,7 @@ knitr::include_graphics("friends.jpg")
 
 ### How can I take part?
 
-If you are aged 12-14 with a diagnosis of ADHD you can take part in this study with a parent. Taking part involves filling in some questionnaires and completing very short surveys on a smartphone app. Please head to our study participant page for <a href="https://mhim-adhd.github.io/Study/info1.html" style="color: blue;">young people</a> and <a href="https://mhim-adhd.github.io/Study/info2.html" style="color: blue;">parents</a>.
+If you are aged 11-14 with a diagnosis of ADHD you can take part in this study with a parent. Taking part involves filling in some questionnaires and completing very short surveys on a smartphone app. Please head to our study participant page for <a href="https://mhim-adhd.github.io/Study/info1.html" style="color: blue;">young people</a> and <a href="https://mhim-adhd.github.io/Study/info2.html" style="color: blue;">parents</a>.
 
 
 ```{r, echo = FALSE, fig.align = 'center'}
