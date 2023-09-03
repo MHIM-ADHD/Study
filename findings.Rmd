@@ -8,7 +8,7 @@ knitr::include_graphics("Journals.jpg")
 <font size="4">Once we have results, we will summarise our findings here. The list of published articles resulting from this study are listed below.</font>
 
 ### Pre-prints and publications
-Illuminating the daily life experiences of adolescents with and without ADHD: Protocol for an ecological momentary assessment study
+<a href="https://doi.org/10.31234/osf.io/d28u3" style="color: blue;">Illuminating the daily life experiences of adolescents with and without ADHD: Protocol for an ecological momentary assessment study</a></span></h2> 
 * a pre-print describing the study protocol
 
 &nbsp;<br>
