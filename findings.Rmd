@@ -5,11 +5,10 @@ title: "Study Findings"
 knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("Journals.jpg")
 ``` 
-<font size="4">Once we have results, we will summarise our findings here. The list of published articles resulting from this study are listed below.</font>
+<font size="4">Once we have results, we will summarise our findings here. We will also include a list of any published articles resulting from this study on this page.</font>
 
-### Pre-prints and publications
+### Preprints and Publications
 <a href="https://doi.org/10.31234/osf.io/d28u3" style="color: blue;">Illuminating the daily life experiences of adolescents with and without ADHD: Protocol for an ecological momentary assessment study</a></span></h2> 
-* a pre-print describing the study protocol
 
 &nbsp;<br>
 
