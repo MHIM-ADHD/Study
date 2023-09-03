@@ -6,7 +6,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("contact.jpg")
 ``` 
 
-<font size="4">If you have any questions about the study, please get in touch via our email hotline: [study email].
+<font size="4">If you have any questions about the study, please get in touch via our email hotline: <a href="mailto:mhim.adhd.ppls@ed.ac.uk" style="color: blue;">mhim.adhd.ppls@ed.ac.uk</a>.
 
 - Overall Research Project Lead: Dr Aja Murray: <a href="mailto:aja.murray@ed.ac.uk" style="color: blue;">aja.murray@ed.ac.uk</a>
 
